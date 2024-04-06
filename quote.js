@@ -1,3 +1,9 @@
+/*
+DOM Manipulation with jQuery Project 
+Date: 06/04/2024
+by: Keitan Holtschmit
+All rights reserved
+*/
 'use strict';
 
 var randomNum = 0;
