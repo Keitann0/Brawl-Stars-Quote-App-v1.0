@@ -12,7 +12,7 @@ var currentQuote = '';
 var currentAuthor = '';
 
 function changeQuote(){
-    randomNum = Math.floor(Math.random()*10);
+    randomNum = Math.floor(Math.random()*15);
     
 
     if(randomNum == 0){
@@ -64,6 +64,31 @@ function changeQuote(){
         $("#text").text("That's why they call me the golden arm");
         $("#brawler").attr("src", "Belle.png");
         $("#author").text("-Belle");
+    }
+    else if(randomNum == 10){
+        $("#text").text("Ok, challenge accepted.");
+        $("#brawler").attr("src", "Fang.png");
+        $("#author").text("-Fang");
+    }
+    else if(randomNum == 11){
+        $("#text").text("See you when you grow up.");
+        $("#brawler").attr("src", "Melody.png");
+        $("#author").text("-Melody");
+    }
+    else if(randomNum == 12){
+        $("#text").text("Asi me gusta");
+        $("#brawler").attr("src", "Shelly.png");
+        $("#author").text("-Shelly");
+    }
+    else if(randomNum == 13){
+        $("#text").text("Don't forget the milk");
+        $("#brawler").attr("src", "Grom.png");
+        $("#author").text("-Grom");
+    }
+    else if(randomNum == 14){
+        $("#text").text("Take a deep breath");
+        $("#brawler").attr("src", "Angelo.png");
+        $("#author").text("-Angelo");
     }
 }
 
